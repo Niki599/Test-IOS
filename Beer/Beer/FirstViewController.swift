@@ -110,6 +110,7 @@ class FirstViewConroller: UIViewController {
         beerCollectionsView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant:0).isActive = true
         beerCollectionsView.topAnchor.constraint(equalTo: mainlabel.bottomAnchor, constant: 100).isActive = true
         beerCollectionsView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -125).isActive = true
+        
     }
     
 }
